@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">SolarSystem</string>
+    <string name="action_events">События</string>
+    <string name="action_information">Информация</string>
+    <string name="action_settings">Настройки</string>
+    <string-array name="names">
+        <item>Солнце</item>
+        <item>Меркурий</item>
+        <item>Венера</item>
+        <item>Земля</item>
+        <item>Марс</item>
+        <item>Юпитер</item>
+        <item>Сатурн</item>
+        <item>Уран</item>
+        <item>Нептун</item>
+        <item>Плутон</item>
+        <item>О приложении</item>
+    </string-array>
+
+    <string-array name="events">
+        <item>Затмение</item>
+        <item>Парад планет</item>
+    </string-array>
+</resources>
+
+
+
