@@ -16,10 +16,10 @@ import android.widget.TextView;
 import itschool.samsung.ru.space.framework.GameView;
 
 public class MainActivity extends AppCompatActivity {
-    public static int size_2_0 = 1;
-    public static int radius = 1;
+    public static int size_2_0 = 10;
+    public static int radius = 10;
     public static int spid = 1;
-    public static int txt = 1;
+    public static int txt = 10;
     public static final String APP_PREFERENCES = "i";
     public static final String APP_PREFERENCES_ISize = "isize";
     public static final String APP_PREFERENCES_IRadius = "iradius";
@@ -48,10 +48,10 @@ public class MainActivity extends AppCompatActivity {
     }
     public void Load() {
         sPref = getSharedPreferences(APP_PREFERENCES, Context.MODE_PRIVATE);
-        size_2_0= sPref.getInt(APP_PREFERENCES_ISize,1);
-        radius = sPref.getInt(APP_PREFERENCES_IRadius, 1);
+        size_2_0= sPref.getInt(APP_PREFERENCES_ISize,10);
+        radius = sPref.getInt(APP_PREFERENCES_IRadius, 10);
         spid= sPref.getInt(APP_PREFERENCES_ISpid, 1);
-        txt= sPref.getInt(APP_PREFERENCES_Itxt, 1);
+        txt= sPref.getInt(APP_PREFERENCES_Itxt, 10);
 
     }
     public boolean onOptionsItemSelected(MenuItem item) {
